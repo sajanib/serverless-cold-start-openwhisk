@@ -1,0 +1,10 @@
+{
+  "exec": {
+    "kind": "nodejs:14",
+    "code": "function main(params) { return { payload: 'Hello, ' + params.name }; }"
+  },
+  "limits": {
+    "memory": 256,
+    "concurrency": 1
+  }
+}
